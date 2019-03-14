@@ -23,10 +23,10 @@ class Song
     @@genres.uniq!
   end  
   def self.genre_count
-    new hash = {}
+    new_hash = {}
     @@genres.map do |genre|
       new hash[genre] = "hi"
     end
-    new hash
+    new_hash
   end 
 end   

@@ -29,4 +29,5 @@ class Song
     end
     new_hash
   end 
+  def artist
 end   

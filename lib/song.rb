@@ -29,5 +29,11 @@ class Song
     end
     new_hash
   end 
-  def artist
+  def self.artist_count 
+    new_hash = {}
+    @@artists.map do |artist|
+      new_hash[artist] = @@artists.count(artist)
+    end
+    new_hash
+  end 
 end   
